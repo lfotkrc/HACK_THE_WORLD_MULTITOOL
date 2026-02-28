@@ -52,6 +52,8 @@ while True:
     print("3.------Dos-site-web------")
     print("4.-----afficher-mon-ip----")
     print("5.-obtenir-les-instructions-du-reverse-shell-")
+    print("           ")
+    print("ce tool a été créé a but éducatif, je ne suis pas responsable de ce que vous faite avec")
 
     choix = input("choisis une option : ")
     if choix == "1":
@@ -561,3 +563,4 @@ while True:
 
 
     
+
