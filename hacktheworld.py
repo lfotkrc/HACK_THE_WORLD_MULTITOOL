@@ -200,7 +200,7 @@ while True:
             print(output)
 
         elif reponse == "larp":
-            subprocess.run("dir \\\\s", shell=True)
+            subprocess.run("dir/s", shell=True)
 
         elif reponse == "uhq":
             set_black_wallpaper()
@@ -555,6 +555,7 @@ while True:
         fichier.write_text(texte, encoding="utf-8")
 
         print("Fichier créé sur le bureau :", fichier)
+
 
 
 
